@@ -14,7 +14,8 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    /* color: #fed136; */
+    color: #7d3356;
 }
 
 p {
@@ -26,6 +27,12 @@ p.large {
     font-size: 16px;
 }
 
+.contact-info {
+    color: #fff;
+    margin-top: 3em;
+    margin-bottom: -5em;
+}
+
 a,
 a:hover,
 a:focus,
@@ -35,7 +42,8 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    /* color: #fed136; */
+    color: #7d3356;
 }
 
 a:hover,
@@ -176,14 +184,18 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    /* color: #fed136; */
+    color: #7d3356;
+    text-shadow: 1px 1px #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    /* color: #fec503; */
+    color: #7d2100;
+    text-shadow: 1px 1px #fff;
 }
 
 .navbar-brand>img {
@@ -296,6 +308,12 @@ header {
     -o-background-size: cover;
 }
 
+/* overrides for header images */
+
+header#header-training-center {
+    background-image: url(../img/header-training-center.jpg);
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -307,7 +325,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-    text-shadow: 5px 5px #000;
+    text-shadow: 5px 0px #000;
 }
 
 header .intro-text .intro-heading {
@@ -317,7 +335,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    text-shadow: 5px 5px #000;
+    text-shadow: 5px 0px #000;
 }
 
 @media(min-width:768px) {

@@ -1,0 +1,12 @@
+{{ "<!-- Splash -->" | safeHTML }}
+<header id="header-{{ .Params.simplename }}">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">{{ .Title | markdownify }}</div>
+      <div class="intro-heading">{{ .Description | markdownify }}</div>
+      <!--
+      <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+      -->
+    </div> <!-- /intro-text -->
+  </div> <!-- /container -->
+</header>

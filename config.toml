@@ -66,8 +66,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
+      url = "/training-center/"
+      name = "Training Center"
       weight = 10
 
 
@@ -98,7 +98,7 @@ googleAnalytics = ""
       icon = "fa-thermometer-three-quarters"
       title = "Training Center"
       description = "State-of-the-art firefighter training center."
-      url = "/dennis-r-lemery-training-center/"
+      url = "/training-center/"
 
     [[params.services.row.list]]
       icon = "fa-fire"
@@ -126,14 +126,14 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "The Dayville Fire Company is a combination fire company that protects the village of Dayville from medical, fire, hazardous material and environmental emergencies. The Dayville Fire Company was established in 1937 to protect the ever-growing village of Dayville but the roots of fire protection in Dayville can be traced back to the mid to late 1800s when the fire protection for the local mills would also respond to fires in the village.<br/><br/>The Dayville Fire Company covers an area that is about 9 square miles in size and is one of the most diverse and busiest fire districts not only in the Town of Killingly but also in all of Windham County. Dayville is the center of the Town of Killingly and covers the main intersection Rt. 12 and Rt. 101, which is the location of many commercial buildings and shopping plazas. We also cover the Towns Industrial park that houses several large warehouses, distribution centers, and manufacturing facilities. Some of these include the fifth largest Frito Lay plant in North America, which are also the town’s largest employer and a three-turbine natural gas power plant. We also protect Quinebaug Valley Community College, the Killingly elementary and middle schools, an alternative high school, and several other preschools and daycares. Along with all that we cover about 6 miles of Interstate 395, have multiple large elderly housing complexes and a large residential base."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
-      img = "1.jpg"
+      img = "prym.jpg"
       date = "1937"
       title = "Incorporated"
       description = "Dayville Fire Company was incorporated from the Prym Mill Fire Brigade."
@@ -145,16 +145,22 @@ googleAnalytics = ""
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
-      img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "training-center.jpg"
+      date = "2015"
+      title = "Training Center Opens"
+      description = "The Lt. Dennis R Lemery Memorial Training Center opens, offering fire training services for the fire companies in Killingly and the surrounding areas."
 
-    [[params.about.events]]
-      img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    #[[params.about.events]]
+    #  img = "3.jpg"
+    #  date = "December 2012"
+    #  title = "Our Humble Beginnings"
+    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    #[[params.about.events]]
+    #  img = "4.jpg"
+    #  date = "July 2014"
+    #  title = "Phase Two Expansion"
+    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
   # Team section
@@ -174,11 +180,9 @@ googleAnalytics = ""
       name = "Kevin Ide"
       position = "Chief"
       reportsTo = ""
-      #scope = [
-      #  "UX for [member dashboard](#)",
-      #  "Maintainer for [awesome-project](#)",
-      #  "Open Source [community management](#)"
-      #]
+      scope = [
+        "Fire Safety Officer"
+      ]
       # For bio markdown and even multiline strings are available.
       bio = ""
       #social = [
@@ -237,6 +241,20 @@ googleAnalytics = ""
     title = "Contact us"
     subtitle  = ""
     buttonText = "Send message"
+
+    infoLeft = """**CONTACT**
+
+_Chief Kevin Ide_<br/>
+Dayville Fire Company<br/>
+465 Hartford Pike<br/>
+P.O. Box 307<br/>
+Dayville, CT 06241
+
+    """
+    infoRight = """
+Emergency: 911<br/>
+Office: 860-774-5525
+    """
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
