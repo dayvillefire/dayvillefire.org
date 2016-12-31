@@ -70,21 +70,17 @@ googleAnalytics = ""
       name = "Training Center"
       weight = 10
 
-
   # Hero section
   [params.hero]
-    # To change the background image of the hero, replace 'header-bg.jpg' in
-    # the 'static/img' folder.
     title = "Dayville Fire Company"
     subtitle = "Home of the angry beaver"
     buttonText = "Tell me more"
-
 
   # Services section
   [params.services]
     enable = true
     title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = ""
 
     [[params.services.row]]
 
@@ -95,14 +91,34 @@ googleAnalytics = ""
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-thermometer-three-quarters"
+      icon = "fa-thermometer-full"
       title = "Training Center"
       description = "State-of-the-art firefighter training center."
       url = "/training-center/"
 
     [[params.services.row.list]]
-      icon = "fa-fire"
+      icon = "fa-fire-extinguisher"
       title = "Fire Prevention"
+      description = ""
+      url = "#"
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-fire"
+      title = "Fire Response"
+      description = ""
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-dollar"
+      title = "Charitable Fundraising"
+      description = ""
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-graduation-cap"
+      title = "Education"
       description = ""
       url = "#"
 
@@ -126,7 +142,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "The Dayville Fire Company is a combination fire company that protects the village of Dayville from medical, fire, hazardous material and environmental emergencies. The Dayville Fire Company was established in 1937 to protect the ever-growing village of Dayville but the roots of fire protection in Dayville can be traced back to the mid to late 1800s when the fire protection for the local mills would also respond to fires in the village.<br/><br/>The Dayville Fire Company covers an area that is about 9 square miles in size and is one of the most diverse and busiest fire districts not only in the Town of Killingly but also in all of Windham County. Dayville is the center of the Town of Killingly and covers the main intersection Rt. 12 and Rt. 101, which is the location of many commercial buildings and shopping plazas. We also cover the Towns Industrial park that houses several large warehouses, distribution centers, and manufacturing facilities. Some of these include the fifth largest Frito Lay plant in North America, which are also the town’s largest employer and a three-turbine natural gas power plant. We also protect Quinebaug Valley Community College, the Killingly elementary and middle schools, an alternative high school, and several other preschools and daycares. Along with all that we cover about 6 miles of Interstate 395, have multiple large elderly housing complexes and a large residential base."
+    subtitle = "The Dayville Fire Company is a combination fire company that protects the village of Dayville from medical, fire, hazardous material, and environmental emergencies. The Dayville Fire Company was established in 1937 to protect the ever-growing village of Dayville, but the roots of fire protection in Dayville can be traced back to the mid to late 1800s when the fire protection for the local mills would also respond to fires in the village.<br/><br/>The Dayville Fire Company covers an area that is about nine square miles in size and is one of the most diverse and busy fire districts -- not only in the Town of Killingly but also in all of Windham County. Dayville is the center of the Town of Killingly and covers the main intersection of Route 12 and Route 101, which is the location of many commercial buildings and shopping plazas. We also cover the town's industrial park, housing several large warehouses, distribution centers, and manufacturing facilities; some of these include the town's largest employer: the fifth largest Frito Lay plant in North America, and a three-turbine natural gas power plant. We also protect Quinebaug Valley Community College, the Killingly elementary and middle schools, an alternative high school, and several other preschools and daycare facilities. We also cover about six miles of Interstate 395, have multiple large elderly housing complexes, and a large residential base."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -139,10 +155,10 @@ googleAnalytics = ""
       description = "Dayville Fire Company was incorporated from the Prym Mill Fire Brigade."
 
     [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      img = "station.jpg"
+      date = "1980"
+      title = "New Station"
+      description = ""
 
     [[params.about.events]]
       img = "training-center.jpg"
@@ -150,24 +166,11 @@ googleAnalytics = ""
       title = "Training Center Opens"
       description = "The Lt. Dennis R Lemery Memorial Training Center opens, offering fire training services for the fire companies in Killingly and the surrounding areas."
 
-    #[[params.about.events]]
-    #  img = "3.jpg"
-    #  date = "December 2012"
-    #  title = "Our Humble Beginnings"
-    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    #[[params.about.events]]
-    #  img = "4.jpg"
-    #  date = "July 2014"
-    #  title = "Phase Two Expansion"
-    #  description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-
   # Team section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Meet Dayville's Firefighters"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -323,9 +326,9 @@ Office: 860-774-5525
       icon = "fa-instagram"
       link = "http://www.instagram.com/dayvillefire/"
 
-    #[[params.footer.social]]
-    #  icon = "fa-linkedin"
-    #  link = "#"
+    [[params.footer.social]]
+      icon = "fa-camera"
+      link = "http://photos.jbuchbinder.com/Fire-Photography/Dayville-Fire-Company/"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
