@@ -156,7 +156,7 @@ googleAnalytics = ""
 
     [[params.about.events]]
       img = "station.jpg"
-      date = "1980"
+      date = "1977"
       title = "New Station"
       description = ""
 
@@ -179,7 +179,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "Chief-Kevin.jpg"
+      img = "Chief-Kevin-Ide.jpg"
       name = "Kevin Ide"
       position = "Chief"
       reportsTo = ""
@@ -195,7 +195,7 @@ googleAnalytics = ""
       #]
 
     [[params.team.members]]
-      img = "Chief-Todd.jpg"
+      img = "Chief-Todd-Wakefield.jpg"
       name = "Todd Wakefield"
       position = "Deputy Chief"
       bio = ""
@@ -206,7 +206,7 @@ googleAnalytics = ""
       #]
 
     [[params.team.members]]
-      img = "Chief-Eric.jpg"
+      img = "Chief-Eric-Lemery.jpg"
       name = "Eric Lemery"
       position = "Assistant Chief"
       scope = [
@@ -218,6 +218,26 @@ googleAnalytics = ""
       #  ["fa-facebook", "#"],
       #  ["fa-linkedin", "#"]
       #]
+
+    [[params.team.members]]
+      img = "Captain-Wayne-Morin.jpg"
+      name = "Wayne Morin"
+      position = "Captain, Company 1"
+
+    [[params.team.members]]
+      img = "Captain-John-Ogozalek.jpg"
+      name = "John Ogozalek"
+      position = "Captain, Company 2"
+
+    [[params.team.members]]
+      img = "Captain-Lynn-Basham.jpg"
+      name = "Lynn Basham"
+      position = "Captain, Company 3"
+
+    [[params.team.members]]
+      img = "Captain-Mike-Breyer.jpg"
+      name = "Mike Breyer"
+      position = "Captain, Fire Police"
 
   # Client section
     [params.clients_list]
