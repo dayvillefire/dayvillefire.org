@@ -7,16 +7,16 @@
   {{ .Hugo.Generator }}
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
-  <link href="{{ "css/bootstrap-v3.3.7/bootstrap.min.css" | absURL }}" rel="stylesheet">
-  <link href="{{ "css/agency.css" | absURL }}" rel="stylesheet">
-  <link href="{{ "css/jquery.form-validator-v2.3.44/theme-default.min.css" | absURL }}" rel="stylesheet">
+  <link href="{{ "css/bootstrap-v3.3.7/bootstrap.min.css" | relURL }}" rel="stylesheet">
+  <link href="{{ "css/agency.css" | relURL }}" rel="stylesheet">
+  <link href="{{ "css/jquery.form-validator-v2.3.44/theme-default.min.css" | relURL }}" rel="stylesheet">
 
   {{ range .Site.Params.custom_css }}
-    <link rel="stylesheet" href="{{ . | absURL }}">
+    <link rel="stylesheet" href="{{ . | relURL }}">
   {{ end }}
 
   {{ "<!-- Custom Fonts -->" | safeHTML }}
-  <link href="{{ "font-awesome-v4.7.0/css/font-awesome.min.css" | absURL }}" rel="stylesheet" type="text/css">
+  <link href="{{ "font-awesome-v4.7.0/css/font-awesome.min.css" | relURL }}" rel="stylesheet" type="text/css">
 
   {{ with not .Site.Params.disableFonts }}
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -26,8 +26,8 @@
   {{ end }}
 
   {{ with .Site.Params.favicon }}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
-    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ . | relURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ . | relURL }}">
   {{ end }}
 
   {{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
