@@ -4,5 +4,5 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 </IfModule>
 
-Header set Content-Security-Policy "default-src 'self' *.cognitoforms.com *.dayvillefire.org; font-src 'self' fonts.gstatic.com; style-src 'self' 'unsafe-inline' *.cognitoforms.com fonts.googleapis.com; script-src 'self' 'unsafe-inline' *.cognitoforms.com dayvillefire.org *.dayvillefire.org"
+Header set Content-Security-Policy "default-src 'self' *.cognitoforms.com *.dayvillefire.org; font-src 'self' fonts.gstatic.com; style-src 'self' 'unsafe-inline' *.cognitoforms.com fonts.googleapis.com; script-src 'self' 'unsafe-inline' *.cognitoforms.com dayvillefire.org *.dayvillefire.org 'sha256-c6QSKttmuYcwMk3WCLsTL8960oGs9+ol3UWfwN4qV8w='d )"
 

@@ -2,6 +2,7 @@
 date: "2017-03-15T11:20:00-05:00"
 title: "Application for Membership"
 simplename: application
+description: "Apply to become a member of the Dayville Fire Company!"
 categories:
 tags:
 ---
