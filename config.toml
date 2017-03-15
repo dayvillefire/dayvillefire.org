@@ -70,6 +70,11 @@ googleAnalytics = ""
       name = "Training Center"
       weight = 10
 
+    [[menu.postpend]]
+      url = "https://members.dayvillefire.org/"
+      name = "Members Only"
+      weight = 20
+
   # Hero section
   [params.hero]
     title = "Dayville Fire Company"
@@ -297,7 +302,7 @@ Office: 860-774-5525
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "k.ide@dayvillefire.org"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -356,5 +361,5 @@ Office: 860-774-5525
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
-      link = "#"
+      link = "/terms-of-use/"
 
