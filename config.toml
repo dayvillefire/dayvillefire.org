@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://dayvillefire.org/"
+baseurl = "https://dayvillefire.org/"
 languageCode = "en-us"
 title = "Dayville Fire Company"
 theme = "hugo-agency-theme"
@@ -177,8 +177,8 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Meet Dayville's Firefighters"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -189,7 +189,8 @@ googleAnalytics = ""
       position = "Chief"
       reportsTo = ""
       scope = [
-        "Fire Safety Officer"
+        "Fire Officer II",
+        "Fire Service Instructor II"
       ]
       # For bio markdown and even multiline strings are available.
       bio = ""
@@ -209,13 +210,18 @@ googleAnalytics = ""
       #  ["fa-facebook", "#"],
       #  ["fa-linkedin", "#"]
       #]
+      scope = [
+        "Fire Officer I",
+        "Fire Service Instructor I"
+      ]
 
     [[params.team.members]]
       img = "Chief-Eric-Lemery.jpg"
       name = "Eric Lemery"
       position = "Assistant Chief"
       scope = [
-        "Dayville Fire District President"
+        "Dayville Fire District President",
+	"Fire Service Instructor"
       ]
       bio = ""
       #social = [
@@ -227,22 +233,92 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "Captain-Wayne-Morin.jpg"
       name = "Wayne Morin"
-      position = "Captain, Company 1"
+      position = "Captain, Engine Company 1"
+      scope = [
+        "Fire Officer I"
+      ]
 
     [[params.team.members]]
       img = "Captain-John-Ogozalek.jpg"
       name = "John Ogozalek"
-      position = "Captain, Company 2"
+      position = "Captain, Rescue Company 2"
+      scope = [
+        "Fire Service Instructor"
+      ]
 
     [[params.team.members]]
       img = "Captain-Lynn-Basham.jpg"
       name = "Lynn Basham"
-      position = "Captain, Company 3"
+      position = "Captain, EMS Company 3"
+      scope = [
+        "EMT"
+      ]
 
     [[params.team.members]]
       img = "Captain-Mike-Breyer.jpg"
       name = "Mike Breyer"
       position = "Captain, Fire Police"
+
+    [[params.team.members]]
+      img = "Lt-Henry-Frechette.jpg"
+      name = "Henry Frechette"
+      position = "Lieutenant, Fire Police"
+
+    [[params.team.members]]
+      img = "Lt-Mike-Shabenas.jpg"
+      name = "Mike Shabenas"
+      position = "Lieutenant, Engine Company 1"
+      scope = [
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Duane-Anderson.jpg"
+      name = "Duane Anderson"
+      position = "Lieutenant, Engine Company 1"
+      scope = [
+        "Emergency Medical Services Instructor"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Gahrett-Bond.jpg"
+      name = "Gahrett \"Bubba\" Bond"
+      position = "Lieutenant, Rescue Company 2"
+      scope = [
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-TJ-Edwards.jpg"
+      name = "TJ Edwards"
+      position = "Lieutenant, Rescue Company 2"
+      scope = [
+        "Fire Officer II",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Holly-Anderson.jpg"
+      name = "Holly Anderson"
+      position = "Lieutenant, EMS Company 3"
+      scope = [
+        "EMT"
+      ]
+
+    [[params.team.members]]
+      img = "Engineer-James-Beaudoin.jpg"
+      name = "James Beaudoin"
+      position = "Engineer"
+
+    [[params.team.members]]
+      img = "Engineer-Craig-Bond.jpg"
+      name = "Craig Bond"
+      position = "Engineer"
+
+    [[params.team.members]]
+      img = "Engineer-John-Carvalho.jpg"
+      name = "John Carvalho"
+      position = "Engineer"
 
   # Client section
     [params.clients_list]
