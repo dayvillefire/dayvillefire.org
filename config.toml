@@ -18,7 +18,7 @@ googleAnalytics = ""
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
   name = "Dayville Fire Company"
-  description = "Your description"
+  description = "Combination fire company proudly serving the Dayville, CT area for 80 years."
 
   # Link custom assets relative to /static
   custom_css = []
@@ -235,7 +235,8 @@ googleAnalytics = ""
       name = "Wayne Morin"
       position = "Captain, Engine Company 1"
       scope = [
-        "Fire Officer I"
+        "Fire Officer I",
+        "Fire Service Instructor I"
       ]
 
     [[params.team.members]]
@@ -243,7 +244,7 @@ googleAnalytics = ""
       name = "John Ogozalek"
       position = "Captain, Rescue Company 2"
       scope = [
-        "Fire Service Instructor"
+        "Fire Service Instructor I"
       ]
 
     [[params.team.members]]
