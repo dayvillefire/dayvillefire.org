@@ -2,6 +2,7 @@
 date: "2017-03-15T11:20:00-05:00"
 title: "Terms of Use"
 simplename: terms-of-use
+url: /terms-of-use/
 categories:
 tags:
 ---

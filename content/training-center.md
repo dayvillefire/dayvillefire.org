@@ -2,6 +2,7 @@
 date: "2016-12-30T19:24:29-05:00"
 title: "Dennis R. Lemery Training Center"
 simplename: training-center
+url: /training-center/
 categories:
 tags:
 ---

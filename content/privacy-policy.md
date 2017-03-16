@@ -2,6 +2,7 @@
 date: "2017-03-15T11:20:00-05:00"
 title: "Privacy Policy"
 simplename: privacy-policy
+url: /privacy-policy/
 categories:
 tags:
 ---
