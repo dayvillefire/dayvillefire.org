@@ -252,7 +252,7 @@ googleAnalytics = ""
       name = "Lynn Basham"
       position = "Captain, EMS Company 3"
       scope = [
-        "EMT"
+        "Emergency Medical Technician"
       ]
 
     [[params.team.members]]
@@ -303,7 +303,7 @@ googleAnalytics = ""
       name = "Holly Anderson"
       position = "Lieutenant, EMS Company 3"
       scope = [
-        "EMT"
+        "Emergency Medical Technician"
       ]
 
     [[params.team.members]]
