@@ -434,7 +434,7 @@ Office: 860-774-5525
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
-      link = "#"
+      link = "/privacy-policy/"
 
     [[params.footer.quicklinks]]
       text = "Terms of Use"
