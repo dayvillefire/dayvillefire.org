@@ -58,12 +58,6 @@ googleAnalytics = ""
     # Use the weight attribute to order your custom links. Uncomment the example
     # below and replace the values with your own.
 
-    # prepended links
-    [[menu.prepend]]
-      url = "http://photos.jbuchbinder.com/Fire-Photography/Dayville-Fire-Company/"
-      name = "Photos"
-      weight = 10
-
     # postpended links
     [[menu.postpend]]
       url = "/training-center/"
@@ -71,9 +65,14 @@ googleAnalytics = ""
       weight = 10
 
     [[menu.postpend]]
+      url = "http://photos.jbuchbinder.com/Fire-Photography/Dayville-Fire-Company/"
+      name = "Photos"
+      weight = 20 
+
+    [[menu.postpend]]
       url = "https://members.dayvillefire.org/"
       name = "Members"
-      weight = 20
+      weight = 30
 
   # Hero section
   [params.hero]
@@ -147,7 +146,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "About"
-    subtitle = "The Dayville Fire Company is a combination fire company that protects the village of Dayville from medical, fire, hazardous material, and environmental emergencies. The Dayville Fire Company was established in 1937 to protect the ever-growing village of Dayville, but the roots of fire protection in Dayville can be traced back to the mid to late 1800s when the fire protection for the local mills would also respond to fires in the village.<br/><br/>The Dayville Fire Company covers an area that is about nine square miles in size and is one of the most diverse and busy fire districts -- not only in the Town of Killingly but also in all of Windham County. Dayville is the center of the Town of Killingly and covers the main intersection of Route 12 and Route 101, which is the location of many commercial buildings and shopping plazas. We also cover the town's industrial park, housing several large warehouses, distribution centers, and manufacturing facilities; some of these include the town's largest employer: the fifth largest Frito Lay plant in North America, and a three-turbine natural gas power plant. We also protect Quinebaug Valley Community College, the Killingly elementary and middle schools, an alternative high school, and several other preschools and daycare facilities. We also cover about six miles of Interstate 395, have multiple large elderly housing complexes, and a large residential base."
+    subtitle = "The **Dayville Fire Company** is a combination fire company that protects the village of Dayville from medical, fire, hazardous material, and environmental emergencies. The Dayville Fire Company was established in 1937 to protect the ever-growing village of Dayville, but the roots of fire protection in Dayville can be traced back to the mid to late 1800s when the fire protection for the local mills would also respond to fires in the village.<br/><br/>The Dayville Fire Company covers an area that is about nine square miles in size and is one of the most diverse and busy fire districts -- not only in the Town of Killingly but also in all of Windham County. Dayville is the center of the [Town of Killingly](http://www.killingly.org/) and covers the main intersection of Route 12 and Route 101, which is the location of many commercial buildings and shopping plazas. We also cover the town's industrial park, housing several large warehouses, distribution centers, and manufacturing facilities; some of these include the town's largest employer: the fifth largest [Frito Lay](http://www.fritolay.com/) plant in North America, and a three-turbine natural gas power plant. We also protect [Quinebaug Valley Community College](http://qvcc.edu/), the [Killingly elementary and middle schools](http://www.killinglyschools.org), an alternative high school, and several other preschools and daycare facilities. We also cover about six miles of Interstate 395, have multiple large elderly housing complexes, and a large residential base."
     endpoint = "[Be part<br>of our<br>story!](/application/)"
 
     # The events will be listed from the top to the bottom.
@@ -344,6 +343,27 @@ googleAnalytics = ""
         logo = "tft.png"
         link = "http://www.tft.com/"
 
+      [[params.clients]]
+        logo = "kb.png"
+        link = "https://kbambulance.com/"
+
+      [[params.clients]]
+        logo = "afts.png"
+        link = "http://www.americanfiretrainingsystems.com/"
+
+      [[params.clients]]
+        logo = "shipman.png"
+        link = "http://www.shipmans.com/"
+
+      [[params.clients]]
+        logo = "firematic.png"
+        link = "http://firematic.com/"
+
+      [[params.clients]]
+        logo = "cs.png"
+        link = "http://csspecialty.com/"
+
+  # Contact section
   # Contact section
   [params.contact]
     enable = true
