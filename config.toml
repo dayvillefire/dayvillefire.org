@@ -5,7 +5,7 @@ title = "Dayville Fire Company"
 theme = "hugo-agency-theme"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-93897024-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -28,6 +28,18 @@ googleAnalytics = ""
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
+
+  [params.social]
+    github		= "dayvillefire"
+    facebook		= "DayvilleFireCompany"
+    facebook_admin	= "17807199"  # This needs to be a page admin to get domain insights
+    twitter		= "DayvilleFire"
+    twitter_domain	= "dayvillefire.org" # This domain shows in twitter cards as "View on `twitter_domain`"
+    #googleplus		= "NozzleIo"
+    #pinterest		= "nozzleio"
+    instagram		= "dayvillefire"
+    #youtube		= "nozzleio"
+    #linkedin		= "nozzleio"
 
   # 404 error customization
   [params.error404]
