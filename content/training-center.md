@@ -11,3 +11,7 @@ This training center was built in 2014 by the Dayville Fire District to address 
 
 The **Dennis R. Lemery Training Center** was named after Lieutenant Dennis R. Lemery of the Dayville Fire Company to remember the sacrifice given by him. Lt. Lemery was an 18 year veteran of the Dayville Fire Company and the lieutenant of the Ladder Company. He was a very active member with the company as well as with the community where he was involved with the cub scouts, boy scouts and local baseball teams. On the fateful day of January 19, 1994 at the young age of 36, after responding to several calls, Lt. Lemery lost his life after suffering a heart attack when he returned home. Lt. Lemery was an outstanding firefighter as well as a father, husband, and community member. His sacrifice and memory will never be forgotten here at the Dayville Fire Company. May Lt. Lemery always rest in peace.
 
+## Contact Information
+
+If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact Deputy Chief Todd Wakefield at 860-234-3056.
+
