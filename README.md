@@ -4,6 +4,10 @@ The [Hugo](http://gohugo.io) source for the [Dayville Fire Company](http://dayvi
 
 ## Maintenance Guides
 
+### Adding a new page
+
+1. Follow the front matter guidelines here : https://github.com/nozzle/hugo-snippets
+
 ### Adding a custom background image for a page
 
 1. Edit {{themes/hugo-agency-theme/static/css/agency.css}} and add an additional CSS definition for {{header#header-SIMPLENAME}}:
