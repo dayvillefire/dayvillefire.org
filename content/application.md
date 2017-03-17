@@ -6,6 +6,8 @@ url: /application/
 description: "Apply to become a member of the Dayville Fire Company!"
 categories:
 tags:
+images:
+ - https://dayvillefire.org/img/header-application.jpg
 ---
 
 <!--
