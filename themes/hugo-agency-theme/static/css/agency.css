@@ -314,6 +314,10 @@ header#header-training-center {
     background-image: url(../img/header-training-center.jpg);
 }
 
+header#header-application {
+    background-image: url(../img/header-application.jpg);
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
