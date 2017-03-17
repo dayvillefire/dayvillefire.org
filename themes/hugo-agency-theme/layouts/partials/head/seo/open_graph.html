@@ -6,6 +6,7 @@
 {{ with .Params.images }}{{ range first 6 . }}
 	<meta property="og:image" content="{{ . }}" />
 {{ end }}{{ end }}
+<meta property="og:image" content="{{ with .Site.Params.headerImage }}{{ . }}{{ end }}" />
 
 <!-- Optional Open Graph Markup -->
 <meta property="og:updated_time" content="{{ .Date }}"/>

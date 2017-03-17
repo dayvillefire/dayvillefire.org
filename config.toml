@@ -25,6 +25,8 @@ googleAnalytics = "UA-93897024-1"
   custom_js  = []
   favicon    = "favicon.ico"
 
+  headerImage = "https://dayvillefire.org/img/header-bg.jpg"
+
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
@@ -90,7 +92,8 @@ googleAnalytics = "UA-93897024-1"
   [params.hero]
     title = "Dayville Fire Company"
     subtitle = "Home of the angry beaver"
-    buttonText = "Tell me more"
+    buttonText = "Join Us"
+    buttonLink = "/application/"
 
   # Services section
   [params.services]
@@ -433,6 +436,10 @@ Office: 860-774-5525
     [params.contact.form.phone]
       text = "Your Phone *"
       warning = "Please enter your phone number."
+
+    [params.contact.form.topic]
+      text = "Topic *"
+      warning = "Please select a topic."
 
     [params.contact.form.message]
       text = "Your Message *"

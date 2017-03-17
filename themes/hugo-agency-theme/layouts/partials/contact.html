@@ -46,6 +46,18 @@
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
+
+                {{ with .Site.Params.contact.form.topic}}
+                <div class="form-group">
+                  <select class="form-control" id="topic" required="required" name="topic" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                    <option selected="selected">General Inquiry</option>
+                    <option>Website Issue</option>
+                    <option>Training Center</option>
+                    <option>Other</option>
+                  </select>
+                  <p class="help-block text-danger"></p>
+                </div>
+                {{ end }}
               </div>
 
               <div class="col-md-6">

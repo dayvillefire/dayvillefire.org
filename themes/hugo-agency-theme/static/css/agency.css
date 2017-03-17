@@ -791,12 +791,17 @@ section#contact .form-group textarea {
     padding: 20px;
 }
 
+section#contact .form-group select.form-control {
+    padding: 30px;
+    color: #000;
+}
+
 section#contact .form-group input.form-control {
     height: auto;
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 322px;
 }
 
 section#contact .form-control:focus {
