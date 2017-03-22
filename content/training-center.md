@@ -17,6 +17,12 @@ The **Dennis R. Lemery Training Center** was named after Lieutenant Dennis R. Le
 
 Photos of burns at the training center are available [here](http://photos.jbuchbinder.com/Fire-Photography/Dennis-Lemery-Training-Center).
 
+## Videos
+
+**Kochek** filmed their [handline nozzle](https://www.kochek.com/handline-nozzles/) video at the training center:
+
+<iframe src="https://player.vimeo.com/video/199727221?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Contact Information
 
 If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact Deputy Chief Todd Wakefield at 860-234-3056.

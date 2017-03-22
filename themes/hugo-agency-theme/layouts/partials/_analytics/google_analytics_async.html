@@ -1,0 +1,8 @@
+{{ with .Site.GoogleAnalytics }}
+<script nonce="f58271f4a4213ac59a69a288d345e4974ce2f7c84e3fc9be004a0fb8807b7fd8e376ad1789b89fab698d858ad9a12b9cfec90d0e654a9b884ab99900ae4da4a1">
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', '{{ . }}', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+{{ end }}

@@ -41,7 +41,7 @@ googleAnalytics = "UA-93897024-1"
     #pinterest		= "nozzleio"
     instagram		= "dayvillefire"
     #youtube		= "nozzleio"
-    #linkedin		= "nozzleio"
+    linkedin		= "dayville-fire-company"
 
   # 404 error customization
   [params.error404]
@@ -468,12 +468,20 @@ Office: 860-774-5525
       link = "https://www.facebook.com/DayvilleFireCompany/"
 
     [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/company/dayville-fire-company/"
+
+    [[params.footer.social]]
       icon = "fa-instagram"
       link = "http://www.instagram.com/dayvillefire/"
 
     [[params.footer.social]]
       icon = "fa-camera"
       link = "http://photos.jbuchbinder.com/Fire-Photography/Dayville-Fire-Company/"
+
+    [[params.footer.social]]
+      icon = "fa-yelp"
+      link = "https://www.yelp.com/biz/dayville-fire-company-dayville"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
