@@ -4,5 +4,5 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R=301,L]
 </IfModule>
 
-Header set Content-Security-Policy "default-src 'self' *.cognitoforms.com *.dayvillefire.org; font-src 'self' fonts.gstatic.com; frame-src 'self' *.dayvillefire.org player.vimeo.com; style-src 'self' 'unsafe-inline' *.cognitoforms.com fonts.googleapis.com; script-src 'self' *.cognitoforms.com dayvillefire.org *.dayvillefire.org *.google-analytics.com 'nonce-f58271f4a4213ac59a69a288d345e4974ce2f7c84e3fc9be004a0fb8807b7fd8e376ad1789b89fab698d858ad9a12b9cfec90d0e654a9b884ab99900ae4da4a1';"
+Header set Content-Security-Policy "default-src 'self' *.cognitoforms.com *.dayvillefire.org; font-src 'self' fonts.gstatic.com; frame-src 'self' *.cognitoforms.com *.dayvillefire.org player.vimeo.com; style-src 'self' 'unsafe-inline' *.cognitoforms.com fonts.googleapis.com; script-src 'self' *.cognitoforms.com dayvillefire.org *.dayvillefire.org *.google-analytics.com 'nonce-f58271f4a4213ac59a69a288d345e4974ce2f7c84e3fc9be004a0fb8807b7fd8e376ad1789b89fab698d858ad9a12b9cfec90d0e654a9b884ab99900ae4da4a1';"
 

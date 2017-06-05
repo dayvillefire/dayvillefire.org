@@ -18,3 +18,11 @@ header#header-application {
    ```
 2. Add an image in {{themes/hugo-agency-theme/static/img}} with the appropriate name. *Warning: You may have to force a reload of the page you're working on for the new CSS to be properly loaded.*
 
+## Adjusting lobby photos
+
+1. Take the original lobby photo and crop to 1:1 aspect ratio
+
+2. Reduce to 400x400 resolution
+
+3. Put in {{themes/hugo-agency-theme/static/img/officers}}
+

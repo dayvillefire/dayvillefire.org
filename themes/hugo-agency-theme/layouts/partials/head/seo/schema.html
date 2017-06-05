@@ -13,3 +13,30 @@
 {{if .IsPage}}
 <meta itemprop="wordCount" content="{{ .WordCount }}">
 {{ end }}
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://dayvillefire.org",
+  "logo": "https://dayvillefire.org/android-icon-192x192.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "availableLanguage": "English",
+    "telephone": "+1-860-774-5525",
+    "contactType": "customer service"
+  }],
+  "sameAs": [
+    "https://twitter.com/dayvillefire",
+    "https://www.facebook.com/DayvilleFireCompany/",
+    "https://www.linkedin.com/company/dayville-fire-company/",
+    "http://www.instagram.com/dayvillefire/",
+    "https://www.yelp.com/biz/dayville-fire-company-dayville"
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 41.8456399,
+    "longitude": -71.8878517
+  }
+}
+</script>

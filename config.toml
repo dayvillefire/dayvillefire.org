@@ -245,6 +245,22 @@ googleAnalytics = "UA-93897024-1"
       #]
 
     [[params.team.members]]
+      img = "Chief-Mike-Shabenas.jpg"
+      name = "Mike Shabenas"
+      position = "Assistant Chief"
+      scope = [
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Captain-John-Ogozalek.jpg"
+      name = "John Ogozalek"
+      position = "First Captain"
+      scope = [
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
       img = "Captain-Wayne-Morin.jpg"
       name = "Wayne Morin"
       position = "Captain, Engine Company 1"
@@ -254,8 +270,8 @@ googleAnalytics = "UA-93897024-1"
       ]
 
     [[params.team.members]]
-      img = "Captain-John-Ogozalek.jpg"
-      name = "John Ogozalek"
+      img = "Captain-Gahrett-Bond.jpg"
+      name = "Gahrett \"Bubba\" Bond"
       position = "Captain, Rescue Company 2"
       scope = [
         "Fire Service Instructor I"
@@ -280,8 +296,25 @@ googleAnalytics = "UA-93897024-1"
       position = "Lieutenant, Fire Police"
 
     [[params.team.members]]
-      img = "Lt-Mike-Shabenas.jpg"
-      name = "Mike Shabenas"
+      img = "Lt-Holly-Anderson.jpg"
+      name = "Holly Anderson"
+      position = "Lieutenant, Engine Company 1"
+      scope = [
+        "Emergency Medical Technician"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Scott-Shatney.jpg"
+      name = "Scott Shatney"
+      position = "Lieutenant, Engine Company 1"
+      scope = [
+        "Fire Officer I",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Jessica-Leader.jpg"
+      name = "Jessica Leader"
       position = "Lieutenant, Engine Company 1"
       scope = [
         "Fire Service Instructor I"
@@ -290,17 +323,9 @@ googleAnalytics = "UA-93897024-1"
     [[params.team.members]]
       img = "Lt-Duane-Anderson.jpg"
       name = "Duane Anderson"
-      position = "Lieutenant, Engine Company 1"
-      scope = [
-        "Emergency Medical Services Instructor"
-      ]
-
-    [[params.team.members]]
-      img = "Lt-Gahrett-Bond.jpg"
-      name = "Gahrett \"Bubba\" Bond"
       position = "Lieutenant, Rescue Company 2"
       scope = [
-        "Fire Service Instructor I"
+        "Emergency Medical Services Instructor"
       ]
 
     [[params.team.members]]
@@ -310,14 +335,6 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Fire Officer II",
         "Fire Service Instructor I"
-      ]
-
-    [[params.team.members]]
-      img = "Lt-Holly-Anderson.jpg"
-      name = "Holly Anderson"
-      position = "Lieutenant, EMS Company 3"
-      scope = [
-        "Emergency Medical Technician"
       ]
 
     [[params.team.members]]
@@ -333,6 +350,11 @@ googleAnalytics = "UA-93897024-1"
     [[params.team.members]]
       img = "Engineer-John-Carvalho.jpg"
       name = "John Carvalho"
+      position = "Engineer"
+
+    [[params.team.members]]
+      img = "Engineer-Gary-Cote.jpg"
+      name = "Gary Cote"
       position = "Engineer"
 
   # Client section
