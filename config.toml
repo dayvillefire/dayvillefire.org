@@ -371,34 +371,42 @@ googleAnalytics = "UA-93897024-1"
       [[params.clients]]
         logo = "pierce.png"
         link = "http://www.piercemfg.com/"
+        title = "Pierce Manufacturing"
 
       [[params.clients]]
         logo = "kochek.png"
         link = "https://www.kochek.com/"
+        title = "Kochek"
 
       [[params.clients]]
         logo = "tft.png"
         link = "http://www.tft.com/"
+        title = "Task Force Tips"
 
       [[params.clients]]
         logo = "kb.png"
         link = "https://kbambulance.com/"
+        title = "KB Ambulance Corps"
 
       [[params.clients]]
         logo = "afts.png"
         link = "http://www.americanfiretrainingsystems.com/"
+        title = "American Fire Training Systems"
 
       [[params.clients]]
         logo = "shipman.png"
         link = "http://www.shipmans.com/"
+        title = "Shipman's"
 
       [[params.clients]]
         logo = "firematic.png"
         link = "http://firematic.com/"
+        title = "Firematic"
 
       [[params.clients]]
         logo = "cs.png"
         link = "http://csspecialty.com/"
+        title = ""
 
   # Contact section
   # Contact section
