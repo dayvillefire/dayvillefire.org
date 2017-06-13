@@ -235,7 +235,7 @@ googleAnalytics = "UA-93897024-1"
       position = "Assistant Chief"
       scope = [
         "Dayville Fire District President",
-	"Fire Service Instructor"
+	"Fire Service Instructor I"
       ]
       bio = ""
       #social = [
@@ -406,7 +406,7 @@ googleAnalytics = "UA-93897024-1"
       [[params.clients]]
         logo = "cs.png"
         link = "http://csspecialty.com/"
-        title = ""
+        title = "CS Specialty"
 
   # Contact section
   # Contact section
