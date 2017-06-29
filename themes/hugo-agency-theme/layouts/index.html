@@ -15,6 +15,10 @@
       {{ partial "portfolio.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.upcoming.enable }}
+      {{ partial "upcoming.html" . }}
+    {{ end }}
+
     {{ if .Site.Params.about.enable }}
       {{ partial "about.html" . }}
     {{ end }}
