@@ -264,8 +264,8 @@ googleAnalytics = "UA-93897024-1"
       ]
 
     [[params.team.members]]
-      img = "Captain-John-Ogozalek.jpg"
-      name = "John Ogozalek"
+      img = "Captain-Gahrett-Bond.jpg"
+      name = "Gahrett \"Bubba\" Bond"
       position = "Fire Captain"
       scope = [
         "Fire Service Instructor I"
@@ -290,30 +290,17 @@ googleAnalytics = "UA-93897024-1"
       ]
 
     [[params.team.members]]
-      img = "Captain-Gahrett-Bond.jpg"
-      name = "Gahrett \"Bubba\" Bond"
-      position = "Fire Captain"
+      img = "Lt-Duane-Anderson.jpg"
+      name = "Duane Anderson"
+      position = "EMS Captain"
       scope = [
-        "Fire Service Instructor I"
+        "Emergency Medical Services Instructor"
       ]
-
-    #[[params.team.members]]
-    #  img = "Captain-Lynn-Basham.jpg"
-    #  name = "Lynn Basham"
-    #  position = "Captain, EMS Company 3"
-    #  scope = [
-    #    "Emergency Medical Technician"
-    #  ]
 
     [[params.team.members]]
       img = "Captain-Mike-Breyer.jpg"
       name = "Mike Breyer"
       position = "Captain, Fire Police"
-
-    [[params.team.members]]
-      img = "Lt-Henry-Frechette.jpg"
-      name = "Henry Frechette"
-      position = "Lieutenant, Fire Police"
 
     [[params.team.members]]
       img = "Lt-Holly-Anderson.jpg"
@@ -332,21 +319,9 @@ googleAnalytics = "UA-93897024-1"
       ]
 
     [[params.team.members]]
-      img = "Lt-Duane-Anderson.jpg"
-      name = "Duane Anderson"
-      position = "Fire Lieutenant"
-      scope = [
-        "Emergency Medical Services Instructor"
-      ]
-
-#    [[params.team.members]]
-#      img = "Lt-TJ-Edwards.jpg"
-#      name = "TJ Edwards"
-#      position = "Lieutenant, Rescue Company 2"
-#      scope = [
-#        "Fire Officer II",
-#        "Fire Service Instructor I"
-#      ]
+      img = "Lt-Henry-Frechette.jpg"
+      name = "Henry Frechette"
+      position = "Lieutenant, Fire Police"
 
     [[params.team.members]]
       img = "Engineer-James-Beaudoin.jpg"
