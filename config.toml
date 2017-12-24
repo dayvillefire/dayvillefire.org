@@ -214,7 +214,7 @@ googleAnalytics = "UA-93897024-1"
       position = "Chief"
       reportsTo = ""
       scope = [
-        "Fire Officer II",
+        "Fire Officer III",
         "Fire Service Instructor II"
       ]
       # For bio markdown and even multiline strings are available.
