@@ -225,20 +225,20 @@ googleAnalytics = "UA-93897024-1"
       #  ["fa-linkedin", "#"]
       #]
 
-    [[params.team.members]]
-      img = "Chief-Todd-Wakefield.jpg"
-      name = "Todd Wakefield"
-      position = "Deputy Chief"
-      bio = ""
+    #[[params.team.members]]
+    #  img = "Chief-Todd-Wakefield.jpg"
+    #  name = "Todd Wakefield"
+    #  position = "Deputy Chief"
+    #  bio = ""
       #social = [
       #  ["fa-twitter", "#"],
       #  ["fa-facebook", "#"],
       #  ["fa-linkedin", "#"]
       #]
-      scope = [
-        "Fire Officer I",
-        "Fire Service Instructor I"
-      ]
+    #  scope = [
+    #    "Fire Officer I",
+    #    "Fire Service Instructor I"
+    #  ]
 
     [[params.team.members]]
       img = "Chief-Eric-Lemery.jpg"
