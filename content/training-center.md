@@ -25,5 +25,5 @@ Photos of burns at the training center are available [here](http://photos.jbuchb
 
 ## Contact Information
 
-If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact Kevin Ide at (508) 633-0512.
+If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact [Assistant Chief Eric Lemery](mailto:erlemery1563@hotmail.com) at (860) 234-1154.
 
