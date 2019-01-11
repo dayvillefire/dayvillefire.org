@@ -12,7 +12,7 @@
           {{ range $i, $e := .Site.Params.upcoming.events }}
 	  <div align="center">
  	      <h2 class="heading">{{ .title | markdownify }}</h2>
-	      <a href="{{ .link }}"><img src="{{ .img }}" /></a>
+	      <a href="{{ .link }}"><img src="{{ .img }}" width="80%" /></a>
 	  </div>
           {{ end }}
       </div>

@@ -158,15 +158,15 @@ googleAnalytics = "UA-93897024-1"
       category = "Category"
       buttonText = "Close project"
 
-  #[params.upcoming]
-  #  enable = true
-  #  title = "Upcoming Events"
-  #  subtitle = ""
+  [params.upcoming]
+    enable = true
+    title = "Upcoming Events"
+    subtitle = ""
 
-    #[[params.upcoming.events]]
-    #  img = "/pdf/Fire-Officer-II.jpg"
-    #  title = "Fire Officer II (Aug-Sep 2017)"
-    #  link = "/pdf/Fire-Officer-II.pdf"
+    [[params.upcoming.events]]
+      img = "/img/Fire-Service-Instructor-I.jpg"
+      title = "Fire Service Instructor I (Jul 2019)"
+      link = "/img/Fire-Service-Instructor-I.jpg"
 
   # About section
   [params.about]
@@ -243,10 +243,11 @@ googleAnalytics = "UA-93897024-1"
     [[params.team.members]]
       img = "Chief-Eric-Lemery.jpg"
       name = "Eric Lemery"
-      position = "Assistant Chief"
+      position = "Deputy Chief"
       scope = [
         "Dayville Fire District President",
-	"Fire Service Instructor I"
+	"Fire Service Instructor I",
+	"Fire Officer I"
       ]
       bio = ""
       #social = [
@@ -268,15 +269,6 @@ googleAnalytics = "UA-93897024-1"
       name = "Gahrett \"Bubba\" Bond"
       position = "Fire Captain"
       scope = [
-        "Fire Service Instructor I"
-      ]
-
-    [[params.team.members]]
-      img = "Lt-Scott-Shatney.jpg"
-      name = "Scott Shatney"
-      position = "Fire Captain"
-      scope = [
-        "Fire Officer I",
         "Fire Service Instructor I"
       ]
 
