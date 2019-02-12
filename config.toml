@@ -164,9 +164,14 @@ googleAnalytics = "UA-93897024-1"
     subtitle = ""
 
     [[params.upcoming.events]]
+      img = "/img/EMR-Initial-2019.jpg"
+      title = "Emergency Medical Responder Initial (Mar 2019)"
+      link = "/pdf/EMR-Initial-2019.pdf"
+
+    [[params.upcoming.events]]
       img = "/img/Fire-Service-Instructor-I.jpg"
       title = "Fire Service Instructor I (Jul 2019)"
-      link = "/img/Fire-Service-Instructor-I.jpg"
+      link = "/pdf/Fire-Service-Instructor-I.pdf"
 
   # About section
   [params.about]
