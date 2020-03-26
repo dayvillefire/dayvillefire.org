@@ -1,5 +1,5 @@
 ---
-date: "2016-12-30T19:24:29-05:00"
+date: "2020-03-26T13:24:29-05:00"
 title: "Dennis R. Lemery Training Center"
 simplename: training-center
 url: /training-center/
@@ -25,5 +25,5 @@ Photos of burns at the training center are available [here](http://photos.jbuchb
 
 ## Contact Information
 
-If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact [Assistant Chief Eric Lemery](mailto:erlemery1563@hotmail.com) at (860) 234-1154.
+If you would like to schedule a date at the **Dennis R. Lemery Training Center**, please contact director [Michael Shabenas](mailto:drltrainingcenter63@gmail.com) at (860) 455-6329.
 
