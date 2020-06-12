@@ -164,9 +164,9 @@ googleAnalytics = "UA-93897024-1"
     subtitle = ""
 
     [[params.upcoming.events]]
-      img = "/img/Annual-District-Meeting-2020.jpg"
+      img = "/img/Annual-District-Meeting-2020.png"
       title = "Annual District Meeting (June 2020)"
-      link = "/pdf/Annual District-Meeting-2020.pdf"
+      link = "/pdf/Annual-District-Meeting-2020.pdf"
 
   # About section
   [params.about]
