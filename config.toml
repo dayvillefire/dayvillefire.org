@@ -159,7 +159,7 @@ googleAnalytics = "UA-93897024-1"
       buttonText = "Close project"
 
   [params.upcoming]
-    enable = true
+    enable = false
     title = "Upcoming Events"
     subtitle = ""
 
@@ -181,14 +181,20 @@ googleAnalytics = "UA-93897024-1"
     [[params.about.events]]
       img = "prym.jpg"
       date = "1937"
+      title = "Founded"
+      description = "The Dayville Volunteer Fire Company was founded by Byron F Barrowclough as a 'one-man' fire department, as a response to the Assawauga Mill's fire brigade being unable to provide fire protection services for the Village of Dayville."
+
+    [[params.about.events]]
+      img = "prym.jpg"
+      date = "1939"
       title = "Incorporated"
-      description = "Dayville Fire Company was incorporated from the Prym Mill Fire Brigade."
+      description = "The Dayville Volunteer Fire Company was incorporated into a three-company operation, with B. Russell Watt as Chief."
 
     [[params.about.events]]
       img = "station.jpg"
       date = "1977"
       title = "New Station"
-      description = ""
+      description = "A new, larger station was built facing Hartford Pike."
 
     [[params.about.events]]
       img = "training-center.jpg"
@@ -214,7 +220,8 @@ googleAnalytics = "UA-93897024-1"
       position = "Chief"
       reportsTo = ""
       scope = [
-        "Fire Officer III",
+        "Emergency Medical Responder",
+        "Fire Officer IV",
         "Fire Service Instructor II"
       ]
       # For bio markdown and even multiline strings are available.
@@ -225,68 +232,53 @@ googleAnalytics = "UA-93897024-1"
       #  ["fa-linkedin", "#"]
       #]
 
-    #[[params.team.members]]
-    #  img = "Chief-Todd-Wakefield.jpg"
-    #  name = "Todd Wakefield"
-    #  position = "Deputy Chief"
-    #  bio = ""
-      #social = [
-      #  ["fa-twitter", "#"],
-      #  ["fa-facebook", "#"],
-      #  ["fa-linkedin", "#"]
-      #]
-    #  scope = [
-    #    "Fire Officer I",
-    #    "Fire Service Instructor I"
-    #  ]
-
     [[params.team.members]]
-      img = "Chief-Eric-Lemery.jpg"
-      name = "Eric Lemery"
+      img = "Chief-JR-Adams.jpg"
+      name = "JR Adams"
       position = "Deputy Chief"
       scope = [
-        "Dayville Fire District President",
-	"Fire Service Instructor I",
-	"Fire Officer I"
+        "Emergency Medical Responder",
+        "Fire Service Instructor I"
       ]
-      bio = ""
-      #social = [
-      #  ["fa-twitter", "#"],
-      #  ["fa-facebook", "#"],
-      #  ["fa-linkedin", "#"]
-      #]
 
     [[params.team.members]]
       img = "Chief-Mike-Shabenas.jpg"
       name = "Mike Shabenas"
       position = "Assistant Chief"
       scope = [
+        "Emergency Medical Technician",
+        "Fire Officer II",
         "Fire Service Instructor I"
       ]
 
     [[params.team.members]]
       img = "Captain-Gahrett-Bond.jpg"
       name = "Gahrett \"Bubba\" Bond"
-      position = "Fire Captain"
+      position = "House Captain"
       scope = [
-        "Fire Service Instructor I"
-      ]
-
-    [[params.team.members]]
-      img = "Captain-Wayne-Morin.jpg"
-      name = "Wayne Morin"
-      position = "Fire Captain"
-      scope = [
+        "Emergency Medical Responder",
         "Fire Officer I",
         "Fire Service Instructor I"
       ]
 
     [[params.team.members]]
-      img = "Lt-Duane-Anderson.jpg"
-      name = "Duane Anderson"
-      position = "EMS Captain"
+      img = "Captain-Adam-Hunt.jpg"
+      name = "Adam Hunt"
+      position = "Fire Captain"
       scope = [
-        "Emergency Medical Services Instructor"
+        "Emergency Medical Responder",
+        "Fire Officer I",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Captain-Jeffrey-Buchbinder.jpg"
+      name = "Jeffrey Buchbinder"
+      position = "Rescue Captain"
+      scope = [
+        "Emergency Medical Services Instructor",
+        "Fire Officer I",
+        "Fire Service Instructor I"
       ]
 
     [[params.team.members]]
@@ -295,19 +287,66 @@ googleAnalytics = "UA-93897024-1"
       position = "Captain, Fire Police"
 
     [[params.team.members]]
-      img = "Lt-Holly-Anderson.jpg"
-      name = "Holly Anderson"
+      img = "Lt-Jessica-Leader.jpg"
+      name = "Jessica Leader"
       position = "Fire Lieutenant"
+      scope = [
+        "Emergency Medical Technician",
+        "Fire Officer I",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Andrew-Osborne.jpg"
+      name = "Andrew Osborne"
+      position = "Rescue Lieutenant"
+      scope = [
+        "Emergency Medical Responder",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Roger-Hunt.jpg"
+      name = "Roger Hunt"
+      position = "Fire Lieutenant"
+      scope = [
+        "Emergency Medical Responder",
+        "Fire Officer I",
+        "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Madalyn-Ide.jpg"
+      name = "Madalyn Ide"
+      position = "Fire Lieutenant"
+      scope = [
+        "Emergency Medical Technician",
+        "Firefighter I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Carson-Hadley.jpg"
+      name = "Carson Hadley"
+      position = "EMS Lieutenant"
       scope = [
         "Emergency Medical Technician"
       ]
 
     [[params.team.members]]
-      img = "Lt-Jessica-Leader.jpg"
-      name = "Jessica Leader"
-      position = "Fire Lieutenant"
+      img = "Lt-Dylan-Hamill.jpg"
+      name = "Dylan Hamill"
+      position = "Rescue Lieutenant"
       scope = [
+        "Emergency Medical Responder",
         "Fire Service Instructor I"
+      ]
+
+    [[params.team.members]]
+      img = "Lt-Karen-Greb.jpg"
+      name = "Karen Greb"
+      position = "EMS Lieutenant"
+      scope = [
+        "Emergency Medical Technician"
       ]
 
     [[params.team.members]]
@@ -316,23 +355,18 @@ googleAnalytics = "UA-93897024-1"
       position = "Lieutenant, Fire Police"
 
     [[params.team.members]]
-      img = "Engineer-James-Beaudoin.jpg"
-      name = "James Beaudoin"
-      position = "Engineer"
-
-    [[params.team.members]]
-      img = "Engineer-Craig-Bond.jpg"
-      name = "Craig Bond"
-      position = "Engineer"
-
-    [[params.team.members]]
       img = "Engineer-John-Carvalho.jpg"
       name = "John Carvalho"
-      position = "Engineer"
+      position = "Chief Engineer"
 
     [[params.team.members]]
       img = "Engineer-Gary-Cote.jpg"
       name = "Gary Cote"
+      position = "Engineer"
+
+    [[params.team.members]]
+      img = "Engineer-Chris-Hohler.jpg"
+      name = "Chris Hohler"
       position = "Engineer"
 
   # Client section
