@@ -207,7 +207,7 @@ googleAnalytics = "UA-93897024-1"
     enable = true
     # Possibility to center items
     center = true
-    title = "Meet Dayville's Firefighters"
+    title = "Meet Dayville's Officers"
     #subtitle = ""
     #description = ""
 
@@ -238,7 +238,8 @@ googleAnalytics = "UA-93897024-1"
       position = "Deputy Chief"
       scope = [
         "Emergency Medical Responder",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -248,7 +249,8 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Emergency Medical Technician",
         "Fire Officer II",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -268,7 +270,8 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Emergency Medical Responder",
         "Fire Officer I",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -278,7 +281,8 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Emergency Medical Services Instructor",
         "Fire Officer I",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -293,7 +297,8 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Emergency Medical Technician",
         "Fire Officer I",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
