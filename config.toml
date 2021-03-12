@@ -222,7 +222,8 @@ googleAnalytics = "UA-93897024-1"
       scope = [
         "Emergency Medical Responder",
         "Fire Officer IV",
-        "Fire Service Instructor II"
+        "Fire Service Instructor III",
+	"Incident Safety Officer - Fire Suppression"
       ]
       # For bio markdown and even multiline strings are available.
       bio = ""
@@ -248,19 +249,21 @@ googleAnalytics = "UA-93897024-1"
       position = "Assistant Chief"
       scope = [
         "Emergency Medical Technician",
-        "Fire Officer II",
+        "Fire Officer III",
         "Fire Service Instructor I",
-        "Rescue Technician (Confined Space)"
+        "Rescue Technician (Confined Space)",
+	"Incident Safety Officer - Fire Suppression"
       ]
 
     [[params.team.members]]
       img = "Captain-Gahrett-Bond.jpg"
       name = "Gahrett \"Bubba\" Bond"
-      position = "House Captain"
+      position = "Assistant Chief"
       scope = [
         "Emergency Medical Responder",
         "Fire Officer I",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -280,9 +283,10 @@ googleAnalytics = "UA-93897024-1"
       position = "Rescue Captain"
       scope = [
         "Emergency Medical Services Instructor",
-        "Fire Officer I",
-        "Fire Service Instructor I",
-        "Rescue Technician (Confined Space)"
+        "Fire Officer II",
+        "Fire Service Instructor III",
+        "Rescue Technician (Confined Space)",
+	"Incident Safety Officer - Fire Suppression"
       ]
 
     [[params.team.members]]
@@ -307,7 +311,8 @@ googleAnalytics = "UA-93897024-1"
       position = "Rescue Lieutenant"
       scope = [
         "Emergency Medical Responder",
-        "Fire Service Instructor I"
+        "Fire Service Instructor I",
+        "Rescue Technician (Confined Space)"
       ]
 
     [[params.team.members]]
@@ -326,7 +331,7 @@ googleAnalytics = "UA-93897024-1"
       position = "Fire Lieutenant"
       scope = [
         "Emergency Medical Technician",
-        "Firefighter I"
+        "Firefighter II"
       ]
 
     [[params.team.members]]
@@ -363,14 +368,21 @@ googleAnalytics = "UA-93897024-1"
       img = "Engineer-John-Carvalho.jpg"
       name = "John Carvalho"
       position = "Chief Engineer"
-
-    [[params.team.members]]
-      img = "Engineer-Gary-Cote.jpg"
-      name = "Gary Cote"
-      position = "Engineer"
+      scope = [
+        "Firefighter II"
+      ]
 
     [[params.team.members]]
       img = "Engineer-Chris-Hohler.jpg"
+      name = "Chris Hohler"
+      position = "Engineer"
+      scope = [
+        "Emergency Medical Responder",
+        "Firefighter I"
+      ]
+
+    [[params.team.members]]
+      img = "Engineer-James-Beaudoin.jpg"
       name = "Chris Hohler"
       position = "Engineer"
 
